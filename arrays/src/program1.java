@@ -6,25 +6,25 @@ class program1{
 		int searchElement;
 		boolean flag;
         Scanner in = new Scanner(System.in);     
-		//input from user
+		
 		for(rowcounter=0;rowcounter<num.length;rowcounter++){
 			System.out.print("Enter the element [ " + (rowcounter+1) + "] : ");
 			num[rowcounter] = in.nextInt();
 			System.out.println();
 		}
 
-		//Ask for element to be searched 
+		
 		System.out.print("Enter the Element to be searched : ");
 		searchElement = in.nextInt();
 
-		//print the array
+		
 		System.out.println("Element in the array are : ");
 		for(rowcounter=0;rowcounter<num.length;rowcounter++){
 
 		System.out.println(num[rowcounter]);
 		}
 
-		//search for the element
+		
 		flag  = false;
 		for(rowcounter=0;rowcounter<num.length;rowcounter++){
 			if(num[rowcounter] == searchElement){

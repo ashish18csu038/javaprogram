@@ -2,7 +2,7 @@ import java.util.Scanner;
 class program3 {
     static int[] arr;               
 	public static void main(String[] args) {
-	    arr = new int[5];           
+	    arr = new int[4];           
 	    
 	    Scanner num = new Scanner(System.in);
 	    boolean c,flag;
@@ -14,7 +14,7 @@ class program3 {
 			if(n>9 && n<101){
 			    break;
 			}
-		        System.out.println("Enter integer between 10 - 100:");  
+		        System.out.println("Enter integer between 10 - 50:");  
 			n = num.nextInt();
 	        }
 		flag=false;
